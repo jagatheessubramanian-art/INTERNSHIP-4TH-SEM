@@ -1,1 +1,10 @@
-
+import numpy as np
+num1=np.array([1,2,3,4,5])
+num2=np.array([6,7,8,9,10])
+print("Addition:",num1+num2)
+print("Subraction:",num1-num2)
+print("Multiplication:",num1*num2)
+print("Division:",num1/num2)
+print("Modulus:",num1%num2)
+print("Floor Division:",num1//num2)
+princ("Exponential:",num1 ** num2)
